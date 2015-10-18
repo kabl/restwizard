@@ -29,7 +29,7 @@ public class ServerTest {
     public void testCdiResource() throws Exception {
 //         Thread.sleep(100000);
         Client client = ClientBuilder.newClient();
-        String result = client.target("http://localhost:8081/cdi-resource")
+        String result = client.target("http://localhost:8080/cdi-resource")
                 .request().get(String.class);
         client.close();
 
@@ -39,7 +39,7 @@ public class ServerTest {
     @Test
     public void testTextResource() throws Exception {
         Client client = ClientBuilder.newClient();
-        String dto = client.target("http://localhost:8081/dto-resource")
+        String dto = client.target("http://localhost:8080/dto-resource")
                 .request().accept(MediaType.TEXT_PLAIN).get(String.class);
         client.close();
 
@@ -49,7 +49,7 @@ public class ServerTest {
     @Test
     public void testXmlResource() throws Exception {
         Client client = ClientBuilder.newClient();
-        String dto = client.target("http://localhost:8081/dto-resource")
+        String dto = client.target("http://localhost:8080/dto-resource")
                 .request().accept(MediaType.APPLICATION_XML).get(String.class);
         client.close();
 
@@ -59,7 +59,7 @@ public class ServerTest {
     @Test
     public void testJsonResource() throws Exception {
         Client client = ClientBuilder.newClient();
-        String dto = client.target("http://localhost:8081/dto-resource")
+        String dto = client.target("http://localhost:8080/dto-resource")
                 .request().accept(MediaType.APPLICATION_JSON).get(String.class);
         client.close();
 

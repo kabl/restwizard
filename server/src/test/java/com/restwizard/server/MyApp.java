@@ -6,7 +6,11 @@ import com.google.common.collect.Sets;
 
 import java.util.Set;
 
-public class MyApp extends HelloWorldApp {
+public class MyApp extends RestWizardApp {
+
+    public MyApp(){
+        super(8080);
+    }
 
     @Override
     public Set<Class<?>> getResources() {

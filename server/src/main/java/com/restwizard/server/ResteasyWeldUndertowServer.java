@@ -1,5 +1,6 @@
 package com.restwizard.server;
 
+import io.undertow.Undertow;
 import io.undertow.servlet.Servlets;
 import io.undertow.servlet.api.DeploymentInfo;
 import org.jboss.resteasy.cdi.CdiInjectorFactory;
@@ -13,14 +14,16 @@ import javax.ws.rs.core.Application;
 public class ResteasyWeldUndertowServer {
 
     public static final String ROOT_PATH = "/";
-    private UndertowJaxrsServer server;
+    private final UndertowJaxrsServer server;
+    private final Undertow.Builder builder;
 
-    public ResteasyWeldUndertowServer() {
-        this.server = new UndertowJaxrsServer();
+    public ResteasyWeldUndertowServer(int httpPort) {
+        server = new UndertowJaxrsServer();
+        builder = Undertow.builder().addHttpListener(httpPort, "localhost");
     }
 
     public void start() {
-        this.server.start();
+        server.start(builder);
     }
 
     public void stop() {
@@ -42,7 +45,7 @@ public class ResteasyWeldUndertowServer {
 
     private static ResteasyDeployment createDeployment(Application appClass) {
         ResteasyDeployment deployment = new ResteasyDeployment();
-      //  deployment.setApplicationClass(appClass.getClass().getName());
+        //  deployment.setApplicationClass(appClass.getClass().getName());
         deployment.setApplication(appClass);
         deployment.setInjectorFactoryClass(CdiInjectorFactory.class.getName());
         return deployment;

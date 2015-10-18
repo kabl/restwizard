@@ -3,17 +3,13 @@ package com.restwizard.server;
 import javax.ws.rs.core.Application;
 import java.util.Set;
 
-public abstract class HelloWorldApp {
+public abstract class RestWizardApp {
 
     private final ResteasyWeldUndertowServer server;
 
-    public HelloWorldApp(){
-        System.out.println("constructore");
-        server = new ResteasyWeldUndertowServer();
+    public RestWizardApp(int httpPort){
+        server = new ResteasyWeldUndertowServer(httpPort);
     }
-
-
-    public abstract Set<Class<?>> getResources();
 
     public void start(){
         server.start();
@@ -28,4 +24,6 @@ public abstract class HelloWorldApp {
     public void stop() {
         server.stop();
     }
+
+    public abstract Set<Class<?>> getResources();
 }
