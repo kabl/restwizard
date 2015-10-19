@@ -1,0 +1,4 @@
+name: test yaml configuration
+server:
+  connectors:
+    - port: 113

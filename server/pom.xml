@@ -78,6 +78,11 @@
             <artifactId>resteasy-jackson-provider</artifactId>
             <version>${resteasy.version}</version>
         </dependency>
+        <dependency> <!--YAML -->
+            <groupId>org.jboss.resteasy</groupId>
+            <artifactId>resteasy-yaml-provider</artifactId>
+            <version>${resteasy.version}</version>
+        </dependency>
 
         <!--Test Dependencies-->
         <dependency>
