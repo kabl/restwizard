@@ -1,16 +1,14 @@
 package com.restwizard.config;
 
-import java.util.List;
-
 public class Server {
 
-    private List<Connector> connectors;
+    private HttpConnector httpConnector;
 
-    public List<Connector> getConnectors() {
-        return connectors;
+    public HttpConnector getHttpConnector() {
+        return httpConnector;
     }
 
-    public void setConnectors(List<Connector> connectors) {
-        this.connectors = connectors;
+    public void setHttpConnector(HttpConnector httpConnector) {
+        this.httpConnector = httpConnector;
     }
 }

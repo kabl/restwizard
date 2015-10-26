@@ -1,29 +1,10 @@
 package com.restwizard.config;
 
-public class Connector {
-
-    private ConnectorType type;
-    private int port;
+public class HttpsConnector extends HttpConnector{
 
     private String keyStorePath;
     private String keyStorePassword;
     private boolean validateCerts;
-
-    public ConnectorType getType() {
-        return type;
-    }
-
-    public void setType(ConnectorType type) {
-        this.type = type;
-    }
-
-    public int getPort() {
-        return port;
-    }
-
-    public void setPort(int port) {
-        this.port = port;
-    }
 
     public String getKeyStorePath() {
         return keyStorePath;

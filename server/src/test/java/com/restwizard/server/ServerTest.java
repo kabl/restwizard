@@ -8,6 +8,8 @@ import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
 import javax.ws.rs.core.MediaType;
 
+import java.io.IOException;
+
 import static junit.framework.TestCase.assertEquals;
 
 public class ServerTest {
@@ -15,7 +17,7 @@ public class ServerTest {
     private static MyApp SERVER;
 
     @BeforeClass
-    public static void createAndStartServer() {
+    public static void createAndStartServer() throws IOException {
         SERVER = new MyApp();
         SERVER.start();
     }

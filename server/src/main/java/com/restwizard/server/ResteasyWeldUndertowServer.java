@@ -1,5 +1,6 @@
 package com.restwizard.server;
 
+import com.restwizard.config.HttpConnector;
 import io.undertow.Undertow;
 import io.undertow.servlet.Servlets;
 import io.undertow.servlet.api.DeploymentInfo;
@@ -17,9 +18,9 @@ public class ResteasyWeldUndertowServer {
     private final UndertowJaxrsServer server;
     private final Undertow.Builder builder;
 
-    public ResteasyWeldUndertowServer(int httpPort) {
+    public ResteasyWeldUndertowServer(HttpConnector httpConnector) {
         server = new UndertowJaxrsServer();
-        builder = Undertow.builder().addHttpListener(httpPort, "localhost");
+        builder = Undertow.builder().addHttpListener(httpConnector.getPort(), httpConnector.getHost());
     }
 
     public void start() {

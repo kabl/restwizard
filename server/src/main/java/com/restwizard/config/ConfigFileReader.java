@@ -6,40 +6,20 @@ import org.yaml.snakeyaml.constructor.Constructor;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class ConfigFileReader {
+public class ConfigFileReader<T extends RestWizardConfig> {
 
 
-    public RestWizardConfig readFile(String path) throws IOException {
-        FileReader fr = new FileReader(path);
-        ObjectMapper mapper = new ObjectMapper();
-        return mapper.readValue(fr, RestWizardConfig.class);
-    }
+//    public RestWizardConfig readFile(String path) throws IOException {
+//        FileReader fr = new FileReader(path);
+//        ObjectMapper mapper = new ObjectMapper();
+//        return mapper.readValue(fr, RestWizardConfig.class);
+//    }
 
-    public RestWizardConfig readFile2(String path) throws IOException {
-
-//        {
-//            Yaml yaml = new Yaml();
-//            RestWizardConfig foo = new RestWizardConfig();
-//            foo.setName("hallo");
-//            Server server = new Server();
-//            Connector connector = new Connector();
-//            connector.setPort(123);
-//            List<Connector> connectors = new ArrayList<>();
-//            connectors.add(connector);
-//            server.setConnectors(connectors);
-//            foo.setServer(server);
-//            String output = yaml.dump(foo);
-////            yaml.
-//            System.out.println(output);
-//            RestWizardConfig foo2 = (RestWizardConfig) yaml.load(output);
-//            System.out.println("ok");
-//        }
-
+    public T readConfig(String path) throws IOException {
         //https://code.google.com/p/snakeyaml/wiki/Documentation#Loading_YAML
         Constructor construct = new Constructor(RestWizardConfig.class);
         Yaml yaml = new Yaml(construct);
         FileReader fr = new FileReader(path);
-        return (RestWizardConfig)yaml.load(fr);
+        return (T)yaml.load(fr);
     }
-
 }
