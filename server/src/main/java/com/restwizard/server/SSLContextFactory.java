@@ -8,12 +8,6 @@ import java.security.KeyStore;
 
 public class SSLContextFactory {
 
-    /**
-     *
-     * @param keyStorePath
-     * @param keyStorePassword
-     * @return
-     */
     SSLContext createSSLContext(String keyStorePath, char[] keyStorePassword){
 
         try {
