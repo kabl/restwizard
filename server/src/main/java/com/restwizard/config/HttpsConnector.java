@@ -4,7 +4,6 @@ public class HttpsConnector extends HttpConnector{
 
     private String keyStorePath;
     private String keyStorePassword;
-    private boolean validateCerts;
 
     public String getKeyStorePath() {
         return keyStorePath;
@@ -22,11 +21,9 @@ public class HttpsConnector extends HttpConnector{
         this.keyStorePassword = keyStorePassword;
     }
 
-    public boolean isValidateCerts() {
-        return validateCerts;
-    }
 
-    public void setValidateCerts(boolean validateCerts) {
-        this.validateCerts = validateCerts;
+    @Override
+    public String toString(){
+        return "Https Connector: Host: " + getHost() + ", Port: " + getPort();
     }
 }

@@ -2,11 +2,15 @@ package com.restwizard.server;
 
 import com.restwizard.config.CustomConfiguration;
 import junit.framework.TestCase;
+import org.junit.Test;
 
 import java.util.Set;
 
-public class RestWizardAppTest extends TestCase {
+import static org.junit.Assert.assertEquals;
 
+public class RestWizardAppTest {
+
+    @Test
     public void testGetConfigurationClass() throws Exception {
 
         RestWizardApp<CustomConfiguration> app = new RestWizardApp<CustomConfiguration>() {
@@ -18,6 +22,5 @@ public class RestWizardAppTest extends TestCase {
 
         Class clazz = app.getConfigurationClass();
         assertEquals(CustomConfiguration.class.getSimpleName(), clazz.getSimpleName());
-
     }
 }

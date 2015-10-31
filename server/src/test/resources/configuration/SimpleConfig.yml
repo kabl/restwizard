@@ -4,3 +4,8 @@ server:
   httpConnector:
     port: 8080
     host: localhost
+  httpsConnector:
+    port: 8181
+    host: localhost
+    keyStorePath: ./src/main/resources/restwizard.jks
+    keyStorePassword: secret

@@ -1,6 +1,6 @@
 package com.restwizard.server;
 
-import com.restwizard.config.CustomConfiguration;
+import com.restwizard.demo.MyApp;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;

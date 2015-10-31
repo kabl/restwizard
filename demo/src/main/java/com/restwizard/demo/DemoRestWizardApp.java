@@ -15,7 +15,7 @@ public class DemoRestWizardApp extends RestWizardApp<CustomRestwizardConfig> {
     }
 
     public DemoRestWizardApp() throws IOException {
-        super("./src/main/resources/restwizard-demo.yml");
+        super("./demo/src/main/resources/restwizard-demo.yml");
     }
 
     @Override

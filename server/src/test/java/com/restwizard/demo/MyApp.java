@@ -1,9 +1,10 @@
-package com.restwizard.server;
+package com.restwizard.demo;
 
 import com.restwizard.resources.CdiResource;
 import com.restwizard.resources.SimpleDtoResource;
 import com.google.common.collect.Sets;
 import com.restwizard.config.CustomConfiguration;
+import com.restwizard.server.RestWizardApp;
 
 import java.io.IOException;
 import java.util.Set;
