@@ -6,17 +6,14 @@ import com.restwizard.config.Server;
 import io.undertow.Undertow;
 import io.undertow.servlet.Servlets;
 import io.undertow.servlet.api.DeploymentInfo;
-import org.apache.http.conn.ssl.SSLContextBuilder;
 import org.jboss.resteasy.cdi.CdiInjectorFactory;
 import org.jboss.resteasy.plugins.server.undertow.UndertowJaxrsServer;
 import org.jboss.resteasy.spi.ResteasyDeployment;
 import org.jboss.weld.environment.servlet.Listener;
 
-import javax.net.ssl.*;
+import javax.net.ssl.SSLContext;
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
-import java.io.FileInputStream;
-import java.security.KeyStore;
 import java.util.logging.Logger;
 
 public class ResteasyWeldUndertowServer {

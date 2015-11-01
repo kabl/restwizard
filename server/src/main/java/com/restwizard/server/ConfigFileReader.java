@@ -1,7 +1,6 @@
 package com.restwizard.server;
 
 import com.restwizard.config.RestWizardConfig;
-import org.apache.commons.logging.Log;
 import org.yaml.snakeyaml.Yaml;
 import org.yaml.snakeyaml.constructor.Constructor;
 

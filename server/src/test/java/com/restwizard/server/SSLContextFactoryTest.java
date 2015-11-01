@@ -2,8 +2,6 @@ package com.restwizard.server;
 
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 public class SSLContextFactoryTest {
 
     @Test
