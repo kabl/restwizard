@@ -23,6 +23,18 @@ public class RestWizardConfig {
         httpConnector.setHost("localhost");
         server.setHttpConnector(httpConnector);
 
+        HttpsConnector httpsConnector = new HttpsConnector();
+        httpsConnector.setPort(8181);
+        httpsConnector.setHost("localhost");
+        httpsConnector.setKeyStorePassword("secret");
+        httpsConnector.setKeyStorePath(getDefaultKeyStorePath());
+        server.setHttpsConnector(httpsConnector);
+
         return cfg;
+    }
+
+    private static String getDefaultKeyStorePath() {
+        return RestWizardConfig.class.getClassLoader().
+                getResource("restwizard.jks").getFile();
     }
 }
