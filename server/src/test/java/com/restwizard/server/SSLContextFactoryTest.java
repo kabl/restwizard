@@ -1,6 +1,5 @@
 package com.restwizard.server;
 
-import junit.framework.Assert;
 import org.junit.Test;
 
 import javax.net.ssl.SSLContext;
