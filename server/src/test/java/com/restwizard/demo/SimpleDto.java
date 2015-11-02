@@ -1,4 +1,4 @@
-package com.restwizard.resources;
+package com.restwizard.demo;
 
 import javax.xml.bind.annotation.XmlRootElement;
 

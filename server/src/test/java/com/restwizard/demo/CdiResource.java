@@ -1,4 +1,4 @@
-package com.restwizard.resources;
+package com.restwizard.demo;
 
 import javax.enterprise.inject.Produces;
 import javax.inject.Inject;

@@ -1,4 +1,6 @@
-package com.restwizard.config;
+package com.restwizard.demo;
+
+import com.restwizard.config.RestWizardConfig;
 
 public class CustomConfiguration extends RestWizardConfig {
 

@@ -1,6 +1,11 @@
 package com.restwizard.server;
 
+import junit.framework.Assert;
 import org.junit.Test;
+
+import javax.net.ssl.SSLContext;
+
+import static org.junit.Assert.assertEquals;
 
 public class SSLContextFactoryTest {
 
@@ -8,6 +13,8 @@ public class SSLContextFactoryTest {
     public void testCreateSSLContext() throws Exception {
         String path = "./src/main/resources/restwizard.jks";
         char[] pass = "secret".toCharArray();
-        new SSLContextFactory().createSSLContext(path, pass);
+        SSLContext sslContext = new SSLContextFactory().createSSLContext(path, pass);
+        String protocol = sslContext.getProtocol();
+        assertEquals("TLS", protocol);
     }
 }

@@ -1,6 +1,6 @@
 package com.restwizard.server;
 
-import com.restwizard.config.CustomConfiguration;
+import com.restwizard.demo.CustomConfiguration;
 import org.junit.Test;
 
 import java.util.Set;

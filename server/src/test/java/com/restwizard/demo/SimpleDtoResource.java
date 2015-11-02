@@ -1,4 +1,4 @@
-package com.restwizard.resources;
+package com.restwizard.demo;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;

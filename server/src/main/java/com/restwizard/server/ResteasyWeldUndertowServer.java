@@ -50,7 +50,7 @@ public class ResteasyWeldUndertowServer {
         }
 
         if (httpConnector == null && httpsConnector == null) {
-            throw new RuntimeException("Invalid configuration. httpConnector and httpsConnector are null");
+            throw new RuntimeException("httpConnector and httpsConnector are null");
         }
 
         undertowServer.start(builder);
