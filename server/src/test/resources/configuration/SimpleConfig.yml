@@ -1,5 +1,4 @@
 customProperty: custom
-name: test yaml configuration
 server:
   httpConnector:
     port: 8080

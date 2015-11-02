@@ -1,6 +1,6 @@
 package com.restwizard.server;
 
-import com.restwizard.demo.CustomConfiguration;
+import com.restwizard.config.RestWizardConfig;
 import org.junit.Test;
 
 import java.util.Set;
@@ -12,7 +12,9 @@ public class RestWizardAppTest {
     @Test
     public void testGetConfigurationClass() throws Exception {
 
-        RestWizardApp<CustomConfiguration> app = new RestWizardApp<CustomConfiguration>() {
+        final RestWizardConfig cfg = RestWizardConfig.createDefault();
+
+        RestWizardApp<RestWizardConfig> app = new RestWizardApp<RestWizardConfig>(cfg) {
             @Override
             public Set<Class<?>> getResources() {
                 return null;
@@ -20,6 +22,6 @@ public class RestWizardAppTest {
         };
 
         Class clazz = app.getConfigurationClass();
-        assertEquals(CustomConfiguration.class.getSimpleName(), clazz.getSimpleName());
+        assertEquals(RestWizardConfig.class.getSimpleName(), clazz.getSimpleName());
     }
 }

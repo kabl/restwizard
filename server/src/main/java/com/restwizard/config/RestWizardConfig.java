@@ -2,16 +2,7 @@ package com.restwizard.config;
 
 public class RestWizardConfig {
 
-    private String name;
     private Server server;
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
 
     public Server getServer() {
         return server;
@@ -19,5 +10,19 @@ public class RestWizardConfig {
 
     public void setServer(Server server) {
         this.server = server;
+    }
+
+    public static RestWizardConfig createDefault() {
+        RestWizardConfig cfg = new RestWizardConfig();
+
+        Server server = new Server();
+        cfg.setServer(server);
+
+        HttpConnector httpConnector = new HttpConnector();
+        httpConnector.setPort(8080);
+        httpConnector.setHost("localhost");
+        server.setHttpConnector(httpConnector);
+
+        return cfg;
     }
 }

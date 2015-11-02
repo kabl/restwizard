@@ -25,11 +25,6 @@ public abstract class RestWizardApp<T extends RestWizardConfig> {
         this.server = new ResteasyWeldUndertowServer(config.getServer());
     }
 
-    RestWizardApp() {
-        server = null;
-        config = null;
-    }
-
     public void start() {
         server.start();
         server.deploy(new Application() {
