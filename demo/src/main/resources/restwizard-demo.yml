@@ -1,5 +1,4 @@
 customProperty: custom
-name: test yaml configuration
 server:
   httpConnector:
     port: 8080
@@ -7,5 +6,5 @@ server:
   httpsConnector:
     port: 8181
     host: localhost
-    keyStorePath: ../server/src/main/resources/restwizard.jks
+    keyStorePath: ./server/src/main/resources/restwizard.jks
     keyStorePassword: secret

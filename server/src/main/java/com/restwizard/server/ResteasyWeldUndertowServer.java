@@ -6,6 +6,8 @@ import com.restwizard.config.Server;
 import io.undertow.Undertow;
 import io.undertow.servlet.Servlets;
 import io.undertow.servlet.api.DeploymentInfo;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.jboss.resteasy.cdi.CdiInjectorFactory;
 import org.jboss.resteasy.plugins.server.undertow.UndertowJaxrsServer;
 import org.jboss.resteasy.spi.ResteasyDeployment;
@@ -14,11 +16,10 @@ import org.jboss.weld.environment.servlet.Listener;
 import javax.net.ssl.SSLContext;
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
-import java.util.logging.Logger;
 
 public class ResteasyWeldUndertowServer {
 
-    private static final Logger LOG = Logger.getLogger(ResteasyWeldUndertowServer.class.getSimpleName());
+    private static final Logger LOG = LogManager.getLogger(ResteasyWeldUndertowServer.class);
 
     public static final String ROOT_PATH = "/";
     private final UndertowJaxrsServer undertowServer;
