@@ -1,15 +1,15 @@
 package com.restwizard.demo.resources;
 
-import javax.enterprise.inject.Produces;
-import javax.inject.Inject;
+//import javax.enterprise.inject.Produces;
+//import javax.inject.Inject;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 
 @Path("/demo2")
 public class Demo2Resource {
 
-    @Inject
-    private String helloMessage;
+    //    @Inject
+    private String helloMessage = "Hello World my app";
 
     @GET
     @javax.ws.rs.Produces("text/plain")
@@ -17,7 +17,7 @@ public class Demo2Resource {
         return "cdi test: " + helloMessage;
     }
 
-    @Produces
+    //    @Produces
     private static String produceHelloMessage() {
         return "Hello World my app";
     }

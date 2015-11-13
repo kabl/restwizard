@@ -4,14 +4,11 @@ import com.restwizard.config.HttpConnector;
 import com.restwizard.config.HttpsConnector;
 import com.restwizard.config.Server;
 import io.undertow.Undertow;
-import io.undertow.servlet.Servlets;
 import io.undertow.servlet.api.DeploymentInfo;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.jboss.resteasy.cdi.CdiInjectorFactory;
 import org.jboss.resteasy.plugins.server.undertow.UndertowJaxrsServer;
 import org.jboss.resteasy.spi.ResteasyDeployment;
-import org.jboss.weld.environment.servlet.Listener;
 
 import javax.net.ssl.SSLContext;
 import javax.ws.rs.ApplicationPath;
@@ -44,7 +41,7 @@ public class ResteasyWeldUndertowServer {
         HttpsConnector httpsConnector = serverCfg.getHttpsConnector();
         if (httpsConnector != null) {
             SSLContextFactory sslFactory = new SSLContextFactory();
-            SSLContext sslContext = sslFactory.createSSLContext(httpsConnector.getKeyStorePath(), httpsConnector.getKeyStorePassword().toCharArray());
+            SSLContext sslContext = sslFactory.createSSLContext(httpsConnector);
             builder.addHttpsListener(httpsConnector.getPort(), httpsConnector.getHost(), sslContext);
             LOG.info("Init Connector: " + httpsConnector);
 
@@ -70,7 +67,7 @@ public class ResteasyWeldUndertowServer {
 
     private DeploymentInfo createDeploymentInfo(Application appClass) {
         DeploymentInfo di = undertowServer.undertowDeployment(createDeployment(appClass));
-        di.addListener(Servlets.listener(Listener.class));
+//        di.addListener(Servlets.listener(Listener.class));
         di.setClassLoader(appClass.getClass().getClassLoader());
         di.setContextPath(getContextPath(appClass));
         di.setDeploymentName(appClass.getClass().getSimpleName());
@@ -80,7 +77,7 @@ public class ResteasyWeldUndertowServer {
     private static ResteasyDeployment createDeployment(Application appClass) {
         ResteasyDeployment deployment = new ResteasyDeployment();
         deployment.setApplication(appClass);
-        deployment.setInjectorFactoryClass(CdiInjectorFactory.class.getName());
+//        deployment.setInjectorFactoryClass(CdiInjectorFactory.class.getName());
         return deployment;
     }
 
