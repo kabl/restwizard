@@ -4,15 +4,16 @@ import javax.enterprise.inject.Produces;
 import javax.inject.Inject;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
+import javax.ws.rs.core.MediaType;
 
 @Path("/demo2")
+@javax.ws.rs.Produces({MediaType.TEXT_PLAIN})
 public class Demo2Resource {
 
     @Inject
     private String helloMessage;
 
     @GET
-    @javax.ws.rs.Produces("text/plain")
     public String sayHello() {
         return "cdi test: " + helloMessage;
     }

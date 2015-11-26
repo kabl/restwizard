@@ -1,5 +1,7 @@
 package com.restwizard.config;
 
+import java.io.InputStream;
+
 public class RestWizardConfig {
 
     private Server server;
@@ -23,12 +25,12 @@ public class RestWizardConfig {
         httpConnector.setHost("localhost");
         server.setHttpConnector(httpConnector);
 
-        HttpsConnector httpsConnector = new HttpsConnector();
-        httpsConnector.setPort(8181);
-        httpsConnector.setHost("localhost");
-        httpsConnector.setKeyStorePassword("secret");
-        httpsConnector.setKeyStorePath(getDefaultKeyStorePath());
-        server.setHttpsConnector(httpsConnector);
+//        HttpsConnector httpsConnector = new HttpsConnector();
+//        httpsConnector.setPort(8181);
+//        httpsConnector.setHost("localhost");
+//        httpsConnector.setKeyStorePassword("secret");
+//        httpsConnector.setKeyStorePath(getDefaultKeyStorePath());
+//        server.setHttpsConnector(httpsConnector);
 
         return cfg;
     }
@@ -36,5 +38,10 @@ public class RestWizardConfig {
     private static String getDefaultKeyStorePath() {
         return RestWizardConfig.class.getClassLoader().
                 getResource("restwizard.jks").getFile();
+    }
+
+
+    private static InputStream getDefaultKeyStoreStream() {
+        return RestWizardConfig.class.getResourceAsStream("restwizard.jks");
     }
 }
