@@ -13,7 +13,7 @@ public abstract class RestWizardApp<T extends RestWizardConfig> {
 
     private static final Logger LOG = LogManager.getLogger(ConfigFileReader.class);
 
-    private final ResteasyWeldUndertowServer server;
+    private final ResteasyUndertowServer server;
     private final T config;
 
 
@@ -21,14 +21,14 @@ public abstract class RestWizardApp<T extends RestWizardConfig> {
         LOG.info("Init RestWizardApp. Config: " + configFile);
 
         this.config = new ConfigFileReader<T>().readConfig(getConfigurationClass(), configFile);
-        this.server = new ResteasyWeldUndertowServer(config.getServer());
+        this.server = new ResteasyUndertowServer(config.getServer());
     }
 
     public RestWizardApp(T config) {
         LOG.info("Init RestWizardApp");
 
         this.config = config;
-        this.server = new ResteasyWeldUndertowServer(config.getServer());
+        this.server = new ResteasyUndertowServer(config.getServer());
     }
 
     public void start() {

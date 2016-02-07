@@ -2,7 +2,6 @@ package com.restwizard.demo;
 
 import com.google.common.collect.Sets;
 import com.restwizard.demo.resources.Demo1Resource;
-import com.restwizard.demo.resources.Demo2Resource;
 import com.restwizard.server.RestWizardApp;
 
 import java.io.IOException;
@@ -15,18 +14,15 @@ public class DemoRestWizardApp extends RestWizardApp<CustomRestwizardConfig> {
     }
 
     public DemoRestWizardApp() throws IOException {
-        super("./demo/src/main/resources/restwizard-demo.yml"); //Intellij
-//        super("./src/main/resources/restwizard-demo.yml");    //Netbeans
+//        super("./demo/src/main/resources/restwizard-demo.yml"); //Intellij
+        super("./src/main/resources/restwizard-demo.yml");    //Netbeans
 
     }
 
     @Override
     public Set<Class<?>> getResources() {
         Set<Class<?>> classes = Sets.newHashSet();
-
         classes.add(Demo1Resource.class);
-        classes.add(Demo2Resource.class);
-
         return classes;
     }
 }

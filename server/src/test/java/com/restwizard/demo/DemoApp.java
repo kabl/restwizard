@@ -20,12 +20,8 @@ public class DemoApp extends RestWizardApp<CustomConfiguration> {
 
     @Override
     public Set<Class<?>> getResources() {
-
         Set<Class<?>> classes = Sets.newHashSet();
-
-        classes.add(CdiResource.class);
         classes.add(SimpleDtoResource.class);
-
         return classes;
     }
 }

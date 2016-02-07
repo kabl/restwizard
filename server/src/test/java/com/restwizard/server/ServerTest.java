@@ -50,15 +50,6 @@ public class ServerTest {
     }
 
     @Test
-    public void httpCdiResource() throws Exception {
-
-        String result = client.target("http://localhost:8080/cdi-resource")
-                .request().get(String.class);
-
-        assertEquals("inject: Hello World", result);
-    }
-
-    @Test
     public void httpTextResource() throws Exception {
 
         String dto = client.target("http://localhost:8080/dto-resource")

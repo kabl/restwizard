@@ -14,16 +14,16 @@ import javax.net.ssl.SSLContext;
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
 
-public class ResteasyWeldUndertowServer {
+public class ResteasyUndertowServer {
 
-    private static final Logger LOG = LogManager.getLogger(ResteasyWeldUndertowServer.class);
+    private static final Logger LOG = LogManager.getLogger(ResteasyUndertowServer.class);
 
     public static final String ROOT_PATH = "/";
     private final UndertowJaxrsServer undertowServer;
     //    private final Undertow.Builder builder;
     private final Server serverCfg;
 
-    public ResteasyWeldUndertowServer(Server serverCfg) {
+    public ResteasyUndertowServer(Server serverCfg) {
         this.undertowServer = new UndertowJaxrsServer();
         this.serverCfg = serverCfg;
     }
