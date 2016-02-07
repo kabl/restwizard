@@ -1,0 +1,323 @@
+Nov 26, 2015 10:25:15 PM org.xnio.Xnio <clinit>
+INFO: XNIO version 3.3.2.Final
+Nov 26, 2015 10:25:15 PM org.xnio.nio.NioXnio <clinit>
+INFO: XNIO NIO Implementation Version 3.3.2.Final
+Nov 26, 2015 10:25:15 PM org.jboss.weld.environment.servlet.Listener contextInitialized
+INFO: WELD-ENV-001007: Initialize Weld using ServletContextListener
+Nov 26, 2015 10:25:15 PM org.jboss.weld.bootstrap.WeldStartup <clinit>
+INFO: WELD-000900: SNAPSHOT
+Nov 26, 2015 10:25:15 PM org.jboss.weld.bootstrap.WeldStartup startContainer
+INFO: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+Nov 26, 2015 10:25:15 PM org.jboss.weld.interceptor.util.InterceptionTypeRegistry <clinit>
+WARN: WELD-001700: Interceptor annotation class javax.ejb.PostActivate not found, interception based on it is not enabled
+Nov 26, 2015 10:25:15 PM org.jboss.weld.interceptor.util.InterceptionTypeRegistry <clinit>
+WARN: WELD-001700: Interceptor annotation class javax.ejb.PrePassivate not found, interception based on it is not enabled
+Nov 26, 2015 10:25:15 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.jboss.weld.environment.servlet.jsf.ForwardingApplicationFactory because of underlying class loading error: Type javax.faces.application.ApplicationFactory not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:16 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.jackson.Initializers$SetupContextInitializer because of underlying class loading error: Type com.fasterxml.jackson.databind.Module$SetupContext not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:16 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.jackson.MutableThreadContextStackDeserializer$1 because of underlying class loading error: Type com.fasterxml.jackson.core.type.TypeReference not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:16 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.config.json.JsonConfiguration$Status because of underlying class loading error: Type com.fasterxml.jackson.databind.JsonNode not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:16 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.async.AsyncLoggerConfigHelper$Log4jEventWrapperHandler because of underlying class loading error: Type com.lmax.disruptor.SequenceReportingEventHandler not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:16 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.appender.mom.jeromq.JeroMqAppender because of underlying class loading error: Type org.zeromq.ZMQ$Context not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:16 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.codehaus.jackson.map.ext.JodaDeserializers$JodaDeserializer because of underlying class loading error: Type org.joda.time.format.DateTimeFormatter not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:16 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.jboss.logging.JBossLogManagerLogger because of underlying class loading error: Type org.jboss.logmanager.Level not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:16 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.jboss.weld.injection.spi.helpers.ForwardingJpaInjectionServices because of underlying class loading error: Type javax.persistence.EntityManagerFactory not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:17 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.net.server.XmlInputStreamLogEventBridge because of underlying class loading error: Type com.fasterxml.jackson.databind.ObjectMapper not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:17 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.jackson.Log4jXmlModule because of underlying class loading error: Type com.fasterxml.jackson.dataformat.xml.JacksonXmlModule not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:17 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.layout.AbstractJacksonLayout because of underlying class loading error: Type com.fasterxml.jackson.core.JsonProcessingException not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:17 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from javax.xml.stream.FactoryFinder$ClassLoaderFinder because of underlying class loading error: Type [unknown] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:17 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.jboss.weld.jsf.FacesUrlTransformer because of underlying class loading error: Type javax.faces.context.FacesContext not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:17 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.jboss.weld.environment.jetty.WeldDecorator because of underlying class loading error: Type org.eclipse.jetty.servlet.ServletContextHandler$Decorator not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:17 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.jboss.logging.Slf4jLogger because of underlying class loading error: Type org.slf4j.Logger not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:17 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.appender.db.jpa.converter.ContextStackJsonAttributeConverter because of underlying class loading error: Type javax.persistence.AttributeConverter not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:17 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.jboss.logging.Log4jLogger because of underlying class loading error: Type org.apache.log4j.Priority not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:17 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.jackson.MessageSerializer because of underlying class loading error: Type com.fasterxml.jackson.databind.ser.std.StdScalarSerializer not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:17 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.jboss.weld.jsf.ConversationAwareViewHandler because of underlying class loading error: Type javax.faces.application.ViewHandlerWrapper not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:17 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.jboss.weld.environment.servlet.jsf.WeldApplication$LazyBeanManagerIntegrationELResolver because of underlying class loading error: Type javax.faces.application.Application not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:17 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.jboss.weld.environment.tomcat.WeldInstanceManager because of underlying class loading error: Type org.apache.tomcat.InstanceManager not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:17 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.net.server.JmsServer because of underlying class loading error: Type javax.jms.MessageListener not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:17 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.async.RingBufferLogEvent$Factory because of underlying class loading error: Type com.lmax.disruptor.EventFactory not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:17 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.jackson.Log4jStackTraceElementDeserializer because of underlying class loading error: Type com.fasterxml.jackson.databind.deser.std.StdScalarDeserializer not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:17 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.jboss.weld.environment.tomcat.ForwardingInstanceManager because of underlying class loading error: Type org.apache.tomcat.InstanceManager not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:17 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.jboss.weld.jsf.ConversationAwareViewHandler$Source because of underlying class loading error: Type javax.faces.application.ViewHandlerWrapper not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:17 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.jackson.MutableThreadContextStackDeserializer because of underlying class loading error: Type com.fasterxml.jackson.databind.deser.std.StdDeserializer not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:17 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.layout.JacksonFactory because of underlying class loading error: Type com.fasterxml.jackson.databind.ser.FilterProvider not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:17 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.jboss.weld.environment.gwtdev.MortbayWeldServletHandler because of underlying class loading error: Type org.mortbay.jetty.servlet.ServletHandler not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:17 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from io.undertow.client.http2.Http2ClientProvider$4 because of underlying class loading error: Type org.eclipse.jetty.alpn.ALPN$ClientProvider not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:17 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.jboss.weld.environment.servlet.jsf.WeldApplicationFactory because of underlying class loading error: Type javax.faces.application.ApplicationFactory not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:17 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.codehaus.jackson.map.ext.JodaSerializers$DateMidnightSerializer because of underlying class loading error: Type org.joda.time.ReadableInstant not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:17 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.osgi.BundleContextSelector because of underlying class loading error: Type org.osgi.framework.Bundle not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:18 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.config.yaml.YamlConfiguration because of underlying class loading error: Type com.fasterxml.jackson.core.JsonFactory not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:18 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.codehaus.jackson.map.ext.JodaSerializers$LocalDateSerializer because of underlying class loading error: Type org.joda.time.ReadablePartial not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:18 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.net.SmtpManager$SMTPManagerFactory because of underlying class loading error: Type javax.mail.Authenticator not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:18 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.appender.db.jpa.converter.MarkerAttributeConverter because of underlying class loading error: Type javax.persistence.AttributeConverter not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:18 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.appender.mom.kafka.KafkaManager because of underlying class loading error: Type org.apache.kafka.clients.producer.Producer not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:18 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.jackson.ListOfMapEntrySerializer because of underlying class loading error: Type com.fasterxml.jackson.databind.ser.std.StdSerializer not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:18 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.jackson.ListOfMapEntryDeserializer because of underlying class loading error: Type com.fasterxml.jackson.databind.deser.std.StdDeserializer not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:18 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.jboss.resteasy.logging.impl.Log4jLogger because of underlying class loading error: Type org.apache.log4j.Logger not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:18 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.appender.mom.JmsManager because of underlying class loading error: Type javax.jms.Message not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:18 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.codehaus.jackson.map.ext.JodaDeserializers$LocalDateTimeDeserializer because of underlying class loading error: Type org.joda.time.LocalDateTime not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:18 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.jboss.weld.environment.deployment.discovery.jandex.JandexClassFileServices$AnnotationClassAnnotationLoader because of underlying class loading error: Type org.jboss.jandex.DotName not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:18 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from com.sun.xml.bind.v2.runtime.output.StAXExStreamWriterOutput because of underlying class loading error: Type org.jvnet.staxex.XMLStreamWriterEx not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:18 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.appender.db.jpa.JpaDatabaseManager because of underlying class loading error: Type javax.persistence.EntityManagerFactory not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:18 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.jboss.resteasy.logging.impl.Slf4jLogger because of underlying class loading error: Type org.slf4j.Logger not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:18 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.appender.db.jpa.converter.ThrowableAttributeConverter because of underlying class loading error: Type javax.persistence.AttributeConverter not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:18 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.jackson.Initializers$SimpleModuleInitializer because of underlying class loading error: Type com.fasterxml.jackson.databind.JsonDeserializer not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:18 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.layout.AbstractCsvLayout because of underlying class loading error: Type org.apache.commons.csv.CSVFormat not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:18 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.async.AsyncLoggerConfigHelper$1 because of underlying class loading error: Type com.lmax.disruptor.EventFactory not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:18 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.async.AsyncLoggerConfigHelper$2 because of underlying class loading error: Type com.lmax.disruptor.EventTranslatorTwoArg not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:18 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.jboss.weld.event.TransactionNotificationSynchronization because of underlying class loading error: Type javax.transaction.Synchronization not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:18 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.layout.CsvLogEventLayout because of underlying class loading error: Type org.apache.commons.csv.CSVFormat not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:18 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.jackson.Log4jXmlObjectMapper because of underlying class loading error: Type com.fasterxml.jackson.dataformat.xml.XmlMapper not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:18 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.jboss.weld.transaction.spi.TransactionServices because of underlying class loading error: Type javax.transaction.Synchronization not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:18 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.layout.JacksonFactory$XML because of underlying class loading error: Type com.fasterxml.jackson.databind.ser.FilterProvider not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:18 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.layout.JsonLayout because of underlying class loading error: Type com.fasterxml.jackson.core.JsonProcessingException not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:18 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.net.server.InputStreamLogEventBridge because of underlying class loading error: Type com.fasterxml.jackson.databind.ObjectMapper not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:18 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.jboss.weld.injection.spi.JpaInjectionServices because of underlying class loading error: Type javax.persistence.EntityManagerFactory not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:18 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.jboss.weld.environment.deployment.discovery.jandex.JandexIndexBeanArchiveHandler because of underlying class loading error: Type org.jboss.jandex.UnsupportedVersion not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:18 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from io.undertow.client.http2.Http2ClientProvider$Http2SelectionProvider because of underlying class loading error: Type org.eclipse.jetty.alpn.ALPN$ClientProvider not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:18 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.jboss.weld.bean.builtin.ee.UserTransactionBean$UserTransactionCallable because of underlying class loading error: Type javax.transaction.UserTransaction not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:18 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.appender.db.jpa.converter.ContextMapAttributeConverter because of underlying class loading error: Type javax.persistence.AttributeConverter not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:18 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.layout.XmlLayout because of underlying class loading error: Type com.fasterxml.jackson.core.JsonProcessingException not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:19 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.appender.db.jpa.converter.LevelAttributeConverter because of underlying class loading error: Type javax.persistence.AttributeConverter not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:19 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.osgi.Activator because of underlying class loading error: Type org.osgi.framework.BundleActivator not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:19 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.async.AsyncLoggerConfigHelper$Log4jEventWrapper because of underlying class loading error: Type com.lmax.disruptor.EventFactory not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:19 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.appender.mom.JmsAppender because of underlying class loading error: Type javax.jms.JMSException not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:19 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.commons.logging.impl.LogKitLogger because of underlying class loading error: Type org.apache.log.Logger not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:19 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.appender.mom.kafka.DefaultKafkaProducerFactory because of underlying class loading error: Type org.apache.kafka.clients.producer.Producer not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:19 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.jackson.SimpleMessageDeserializer because of underlying class loading error: Type com.fasterxml.jackson.databind.deser.std.StdScalarDeserializer not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:19 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.jboss.weld.event.TransactionalObserverNotifier because of underlying class loading error: Type javax.transaction.Synchronization not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:19 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.appender.mom.JmsAppender$Builder because of underlying class loading error: Type javax.jms.JMSException not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:19 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from io.undertow.client.spdy.SpdyClientProvider$4 because of underlying class loading error: Type org.eclipse.jetty.alpn.ALPN$ClientProvider not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:19 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.jboss.logging.Slf4jLocationAwareLogger because of underlying class loading error: Type org.slf4j.spi.LocationAwareLogger not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:19 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.async.RingBufferLogEvent because of underlying class loading error: Type com.lmax.disruptor.EventFactory not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:19 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.jboss.resteasy.plugins.server.tjws.TJWSEmbeddedJaxrsServer because of underlying class loading error: Type Acme.Serve.Serve not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:19 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.appender.db.jpa.converter.ContextStackAttributeConverter because of underlying class loading error: Type javax.persistence.AttributeConverter not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:19 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.commons.logging.impl.Log4JLogger because of underlying class loading error: Type org.apache.log4j.Category not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:19 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.net.SmtpManager because of underlying class loading error: Type javax.mail.BodyPart not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:19 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.net.SmtpManager$SMTPManagerFactory$1 because of underlying class loading error: Type javax.mail.Authenticator not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:19 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.codehaus.jackson.map.ext.JodaSerializers$JodaSerializer because of underlying class loading error: Type org.joda.time.format.DateTimeFormatter not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:19 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.appender.rolling.action.CommonsCompressAction because of underlying class loading error: Type org.apache.commons.compress.compressors.CompressorException not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:19 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.jboss.weld.el.WeldValueExpression because of underlying class loading error: Type javax.el.ValueReference not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:19 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.jboss.logging.JBossLogManagerProvider because of underlying class loading error: Type org.jboss.logmanager.Logger$AttachmentKey not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:19 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.appender.db.jpa.converter.ContextStackJsonAttributeConverter$1 because of underlying class loading error: Type com.fasterxml.jackson.core.type.TypeReference not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:19 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.async.RingBufferLogEventTranslator because of underlying class loading error: Type com.lmax.disruptor.EventTranslator not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:19 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.jackson.Log4jJsonObjectMapper because of underlying class loading error: Type com.fasterxml.jackson.databind.ObjectMapper not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:19 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.appender.db.jpa.converter.MessageAttributeConverter because of underlying class loading error: Type javax.persistence.AttributeConverter not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:19 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.jboss.weld.environment.deployment.discovery.jandex.JandexClassFileInfo because of underlying class loading error: Type org.jboss.jandex.IndexView not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:19 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.async.AsyncLoggerConfigHelper because of underlying class loading error: Type com.lmax.disruptor.EventHandler not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:19 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.jboss.resteasy.plugins.server.tjws.TJWSServletServer because of underlying class loading error: Type Acme.Serve.Serve not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:19 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from io.undertow.server.protocol.http.AlpnOpenListener$1 because of underlying class loading error: Type org.eclipse.jetty.alpn.ALPN$ServerProvider not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:20 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.codehaus.jackson.map.ext.JodaDeserializers$DateMidnightDeserializer because of underlying class loading error: Type org.joda.time.DateMidnight not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:20 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.jboss.weld.environment.jetty.EclipseWeldServletHandler because of underlying class loading error: Type org.eclipse.jetty.servlet.ServletHandler not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:20 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.jboss.weld.environment.deployment.discovery.jandex.JandexFileSystemBeanArchiveHandler because of underlying class loading error: Type org.jboss.jandex.Indexer not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:20 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.jboss.weld.environment.servlet.jsf.ForwardingApplication because of underlying class loading error: Type javax.faces.application.Application not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:20 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.layout.CsvParameterLayout because of underlying class loading error: Type org.apache.commons.csv.CSVFormat not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:20 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from io.undertow.server.protocol.http.AlpnOpenListener$AlpnConnectionListener because of underlying class loading error: Type org.eclipse.jetty.alpn.ALPN$ServerProvider not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:20 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.jboss.weld.event.TransactionSynchronizedRunnable because of underlying class loading error: Type javax.transaction.Synchronization not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:20 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.appender.db.jpa.converter.StackTraceElementAttributeConverter because of underlying class loading error: Type javax.persistence.AttributeConverter not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:20 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.commons.logging.impl.AvalonLogger because of underlying class loading error: Type org.apache.avalon.framework.logger.Logger not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:20 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.jmx.RingBufferAdmin because of underlying class loading error: Type com.lmax.disruptor.RingBuffer not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:20 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.appender.db.jpa.converter.ContextMapJsonAttributeConverter$1 because of underlying class loading error: Type com.fasterxml.jackson.core.type.TypeReference not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:20 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.layout.JacksonFactory$JSON because of underlying class loading error: Type com.fasterxml.jackson.databind.ser.FilterProvider not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:20 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.appender.db.jpa.converter.ContextMapJsonAttributeConverter because of underlying class loading error: Type javax.persistence.AttributeConverter not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:20 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.async.RingBufferLogEventHandler because of underlying class loading error: Type com.lmax.disruptor.SequenceReportingEventHandler not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:20 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.async.AsyncLogger because of underlying class loading error: Type com.lmax.disruptor.WaitStrategy not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:20 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from javax.xml.stream.FactoryFinder$ClassLoaderFinderConcrete because of underlying class loading error: Type [unknown] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:20 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.jboss.weld.environment.deployment.discovery.jandex.JandexClassFileServices because of underlying class loading error: Type org.jboss.jandex.IndexView not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:20 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.codehaus.jackson.map.ext.JodaSerializers$DateTimeSerializer because of underlying class loading error: Type org.joda.time.DateTime not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:20 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.net.server.JsonInputStreamLogEventBridge because of underlying class loading error: Type com.fasterxml.jackson.databind.ObjectMapper not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:20 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.config.json.JsonConfiguration because of underlying class loading error: Type com.fasterxml.jackson.databind.JsonNode not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:20 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.codehaus.jackson.map.ext.JodaSerializers$LocalDateTimeSerializer because of underlying class loading error: Type org.joda.time.ReadablePartial not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:20 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.jackson.ListOfMapEntryDeserializer$1 because of underlying class loading error: Type com.fasterxml.jackson.core.type.TypeReference not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:20 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.util.Activator because of underlying class loading error: Type org.osgi.framework.BundleActivator not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:20 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from com.sun.xml.bind.v2.runtime.unmarshaller.StAXExConnector because of underlying class loading error: Type org.jvnet.staxex.XMLStreamReaderEx not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:20 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.jboss.weld.environment.servlet.jsf.WeldApplication because of underlying class loading error: Type javax.faces.application.Application not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:20 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.jboss.resteasy.plugins.server.tjws.TJWSServletServer$FileMappingServe because of underlying class loading error: Type Acme.Serve.Serve not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:20 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.async.AsyncLogger$Info because of underlying class loading error: Type com.lmax.disruptor.EventTranslator not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:20 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.appender.mom.kafka.KafkaProducerFactory because of underlying class loading error: Type org.apache.kafka.clients.producer.Producer not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:20 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.jboss.weld.environment.deployment.discovery.jandex.JandexDiscoveryStrategy because of underlying class loading error: Type org.jboss.jandex.CompositeIndex not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:20 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from io.undertow.server.protocol.http.AlpnOpenListener because of underlying class loading error: Type org.eclipse.jetty.alpn.ALPN$Provider not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:20 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.codehaus.jackson.map.ext.JodaDeserializers$PeriodDeserializer because of underlying class loading error: Type org.joda.time.ReadablePeriod not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:20 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.codehaus.jackson.map.ext.JodaDeserializers$DateTimeDeserializer because of underlying class loading error: Type org.joda.time.ReadableInstant not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:20 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.net.MimeMessageBuilder because of underlying class loading error: Type javax.mail.Address not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:20 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.jboss.weld.environment.tomcat.WeldForwardingInstanceManager because of underlying class loading error: Type org.apache.tomcat.InstanceManager not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:20 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from io.undertow.client.spdy.SpdyClientProvider$SpdySelectionProvider because of underlying class loading error: Type org.eclipse.jetty.alpn.ALPN$ClientProvider not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:20 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.jboss.weld.util.el.ForwardingValueExpression because of underlying class loading error: Type javax.el.ValueReference not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:20 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.codehaus.jackson.map.ext.JodaDeserializers$LocalDateDeserializer because of underlying class loading error: Type org.joda.time.LocalDate not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:20 PM org.jboss.weld.bootstrap.MissingDependenciesRegistry handleResourceLoadingException
+INFO: WELD-000119: Not generating any bean definitions from org.apache.logging.log4j.core.jackson.Log4jJsonModule because of underlying class loading error: Type com.fasterxml.jackson.databind.module.SimpleModule not found.  If this is unexpected, enable DEBUG logging to see the full error.
+Nov 26, 2015 10:25:23 PM org.jboss.weld.environment.servlet.WeldServletLifecycle initialize
+INFO: WELD-ENV-001001: No supported servlet container detected, CDI injection will NOT be available in Servlets, Filters or Listeners
+Exception in thread "main" java.lang.RuntimeException: org.jboss.weld.exceptions.DeploymentException: org/apache/kafka/clients/producer/Producer
+	at io.undertow.servlet.core.DeploymentManagerImpl.deploy(DeploymentManagerImpl.java:224)
+	at org.jboss.resteasy.plugins.server.undertow.UndertowJaxrsServer.deploy(UndertowJaxrsServer.java:229)
+	at com.restwizard.server.ResteasyWeldUndertowServer.deploy(ResteasyWeldUndertowServer.java:68)
+	at com.restwizard.server.RestWizardApp.start(RestWizardApp.java:36)
+	at com.restwizard.demo.DemoRestWizardApp2.main(DemoRestWizardApp2.java:15)
+Caused by: org.jboss.weld.exceptions.DeploymentException: org/apache/kafka/clients/producer/Producer
+	at org.jboss.weld.executor.AbstractExecutorServices.checkForExceptions(AbstractExecutorServices.java:66)
+	at org.jboss.weld.executor.AbstractExecutorServices.invokeAllAndCheckForExceptions(AbstractExecutorServices.java:43)
+	at org.jboss.weld.executor.AbstractExecutorServices.invokeAllAndCheckForExceptions(AbstractExecutorServices.java:51)
+	at org.jboss.weld.bootstrap.ConcurrentBeanDeployer.createClassBeans(ConcurrentBeanDeployer.java:75)
+	at org.jboss.weld.bootstrap.BeanDeployment.createBeans(BeanDeployment.java:262)
+	at org.jboss.weld.bootstrap.WeldStartup.deployBeans(WeldStartup.java:386)
+	at org.jboss.weld.bootstrap.WeldBootstrap.deployBeans(WeldBootstrap.java:83)
+	at org.jboss.weld.environment.servlet.WeldServletLifecycle.initialize(WeldServletLifecycle.java:172)
+	at org.jboss.weld.environment.servlet.Listener.contextInitialized(Listener.java:61)
+	at io.undertow.servlet.core.ApplicationListeners.contextInitialized(ApplicationListeners.java:187)
+	at io.undertow.servlet.core.DeploymentManagerImpl.deploy(DeploymentManagerImpl.java:195)
+	... 4 more
+Caused by: java.lang.NoClassDefFoundError: org/apache/kafka/clients/producer/Producer
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+	at java.lang.Class.getEnclosingMethod(Class.java:1045)
+	at org.jboss.weld.util.reflection.Reflections.isNonStaticInnerClass(Reflections.java:402)
+	at org.jboss.weld.util.Beans.isTypeManagedBeanOrDecoratorOrInterceptor(Beans.java:491)
+	at org.jboss.weld.bootstrap.BeanDeployer.createClassBean(BeanDeployer.java:213)
+	at org.jboss.weld.bootstrap.ConcurrentBeanDeployer$2.doWork(ConcurrentBeanDeployer.java:78)
+	at org.jboss.weld.bootstrap.ConcurrentBeanDeployer$2.doWork(ConcurrentBeanDeployer.java:75)
+	at org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:60)
+	at org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:53)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.apache.kafka.clients.producer.Producer
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 15 more

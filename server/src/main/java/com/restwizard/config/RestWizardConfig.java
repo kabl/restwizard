@@ -37,6 +37,7 @@ public class RestWizardConfig {
         return cfg;
     }
 
+
 //    private static String getDefaultKeyStorePath() {
 //        return RestWizardConfig.class.getClassLoader().
 //                getResource("restwizard.jks").getFile();
@@ -45,4 +46,5 @@ public class RestWizardConfig {
 //    private static InputStream getDefaultKeyStoreStream() {
 //        return RestWizardConfig.class.getResourceAsStream("restwizard.jks");
 //    }
+
 }
