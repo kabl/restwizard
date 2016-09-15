@@ -13,10 +13,9 @@
     <artifactId>restwizard-server</artifactId>
     <version>0.1-SNAPSHOT</version>
 
-
     <properties>
-        <undertow.version>1.3.0.CR1</undertow.version>
-        <resteasy.version>3.0.13.Final</resteasy.version>
+        <undertow.version>1.4.0.Final</undertow.version>
+        <resteasy.version>3.0.19.Final</resteasy.version>
     </properties>
 
     <dependencies>
