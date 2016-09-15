@@ -1,11 +1,11 @@
 package com.restwizard.demo;
 
-import com.google.common.collect.Sets;
 import com.restwizard.server.RestWizardApp;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.io.IOException;
+import java.util.HashSet;
 import java.util.Set;
 
 public class DemoApp extends RestWizardApp<CustomConfiguration> {
@@ -20,7 +20,7 @@ public class DemoApp extends RestWizardApp<CustomConfiguration> {
 
     @Override
     public Set<Class<?>> getResources() {
-        Set<Class<?>> classes = Sets.newHashSet();
+        Set<Class<?>> classes = new HashSet<>();
         classes.add(SimpleDtoResource.class);
         return classes;
     }

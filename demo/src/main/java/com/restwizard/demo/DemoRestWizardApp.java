@@ -1,10 +1,10 @@
 package com.restwizard.demo;
 
-import com.google.common.collect.Sets;
 import com.restwizard.demo.resources.Demo1Resource;
 import com.restwizard.server.RestWizardApp;
 
 import java.io.IOException;
+import java.util.HashSet;
 import java.util.Set;
 
 public class DemoRestWizardApp extends RestWizardApp<CustomRestwizardConfig> {
@@ -21,7 +21,7 @@ public class DemoRestWizardApp extends RestWizardApp<CustomRestwizardConfig> {
 
     @Override
     public Set<Class<?>> getResources() {
-        Set<Class<?>> classes = Sets.newHashSet();
+        Set<Class<?>> classes = new HashSet<>();
         classes.add(Demo1Resource.class);
         return classes;
     }

@@ -4,8 +4,6 @@ import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
 import java.lang.reflect.TypeVariable;
 
-import static com.google.common.base.Preconditions.checkNotNull;
-
 /**
  * Helper methods for class type parameters.
  * @see <a href="http://gafter.blogspot.com/2006/12/super-type-tokens.html">Super Type Tokens</a>
@@ -33,7 +31,7 @@ public class Generics {
      */
     @SuppressWarnings("unchecked")
     public static <T> Class<T> getTypeParameter(Class<?> klass, Class<? super T> bound) {
-        Type t = checkNotNull(klass);
+        Type t = klass;
         while (t instanceof Class<?>) {
             t = ((Class<?>) t).getGenericSuperclass();
         }
